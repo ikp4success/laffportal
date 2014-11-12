@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/Black"
+    android:orientation="vertical" >
+
+ 
+
+    <ViewFlipper
+        android:id="@+id/view_flipper"
+        android:layout_width="fill_parent"
+        android:layout_height="170dp" >
+ 
+
+      <!--  <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+ 
+
+
+           
+
+             <ImageView
+                android:id="@+id/swipe_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/swipe_right" />
+
+            <ImageView
+                android:id="@+id/swipe_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignTop="@+id/swipe_right"
+                android:src="@drawable/swipe_left" />
+        </RelativeLayout>-->
+ 
+
+        <!--
+<RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+ 
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/natural_wall" />
+ 
+
+            <TextView
+                style="@style/ImageTitle"
+                android:text="@string/natural_wall" />
+        </RelativeLayout>
+        -->
+    </ViewFlipper>
+ 
+ 
+ 
+
+</RelativeLayout>
